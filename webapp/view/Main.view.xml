@@ -1,0 +1,49 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" 
+	xmlns:t="sap.ui.table" xmlns="sap.m" controllerName="tcs.hr.payroll.controller.Main"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:f="sap.ui.layout.form">
+	<t:Table rows="{/empTab}">
+		<t:columns>
+			<t:Column>
+				<t:label>
+					<Label text="Emp id"></Label>
+				</t:label>
+				<t:template>
+					<Text text="{empId}"></Text>
+				</t:template>
+			</t:Column>
+			<t:Column>
+				<t:label>
+					<Label text="Emp Name"></Label>
+				</t:label>
+			</t:Column>
+			<t:Column>
+				<t:label>
+					<Label text="Salary"></Label>
+				</t:label>
+			</t:Column>
+			<t:Column>
+				<t:label>
+					<Label text="Currency"></Label>
+				</t:label>
+			</t:Column>
+		</t:columns>
+	</t:Table>
+	<f:SimpleForm editable="true" id="zkas">
+		<f:content>
+			<Label text="Emp Id"></Label>
+			<Input id="empid" width="20%" enabled="{/empStr/magic}" value="{/empStr/empId}"></Input>
+			<Label text="Emp Name"></Label>
+			<Input id="empname" enabled="{/empStr/magic}" value="{path: '/empStr/empName'}"></Input>
+			<Label text="Salary"></Label>
+			<Input  id="fieldSal" enabled="{= ${/empStr/empName} === 'Anubhav' ? false : true}" 
+								  value="{= ${/empStr/empName} === 'Anubhav' ? 5000 : 0}"></Input>
+			<Label text="Curr"></Label>
+			<Input  id="fieldCurr" enabled="{/empStr/magic}" value="{/empStr/currency}"></Input>
+			<Button text="Lets Try!!" press="onTry"></Button>
+			<Button text="Print Model Data in Console" press="printData"></Button>
+			<Label></Label>
+			<Button text="Flip Flop" press="onFlipFlop"></Button>
+		</f:content>
+	</f:SimpleForm>
+</mvc:View>

@@ -1,0 +1,115 @@
+{
+	"empStr": {
+		"empId": 100,
+		"empName": "Anubhav",
+		"salary": 5000,
+		"currency": "USD",
+		"smoker": false,
+		"mStat": "Single",
+		"rating": 3,
+		"gender": "male",
+		"magic": true
+	},
+	"empTab": [
+		{
+			"empId": 1000,
+			"empName": "Jessica",
+			"salary": 2800,
+			"currency": "GBP",
+			"smoker": true,
+			"mStat": "Single",
+			"rating": 4,
+			"gender": "female"
+		},
+		{
+			"empId": 1001,
+			"empName": "Bhaskar",
+			"salary": 80000,
+			"currency": "INR",
+			"smoker": false,
+			"mStat": "Married",
+			"rating": 5,
+			"gender": "male"
+		},
+		{
+			"empId": 1002,
+			"empName": "Rishi",
+			"salary": 95000,
+			"currency": "USD",
+			"smoker": false,
+			"mStat": "Single",
+			"rating": 4,
+			"gender": "male"
+		},
+		{
+			"empId": 1003,
+			"empName": "Sonia",
+			"salary": 4800,
+			"currency": "EUR",
+			"smoker": true,
+			"mStat": "Married",
+			"rating": 3,
+			"gender": "female"
+		},
+		{
+			"empId": 1004,
+			"empName": "Himanshu",
+			"salary": 18000,
+			"currency": "USD",
+			"smoker": false,
+			"mStat": "Married",
+			"rating": 2,
+			"gender": "male"
+		},
+		{
+			"empId": 1005,
+			"empName": "Srinivas",
+			"salary": 87000,
+			"currency": "GBP",
+			"smoker": false,
+			"mStat": "Single",
+			"rating": 4,
+			"gender": "male"
+		},
+		{
+			"empId": 1006,
+			"empName": "Himanshi",
+			"salary": 8700,
+			"currency": "EUR",
+			"smoker": false,
+			"mStat": "Married",
+			"rating": 5,
+			"gender": "female"
+		},
+		{
+			"empId": 1007,
+			"empName": "Jack",
+			"salary": 18000,
+			"currency": "EUR",
+			"smoker": true,
+			"mStat": "Single",
+			"rating": 2,
+			"gender": "male"
+		},
+		{
+			"empId": 1008,
+			"empName": "Raksha",
+			"salary": 7800,
+			"currency": "GBP",
+			"smoker": true,
+			"mStat": "Single",
+			"rating": 3,
+			"gender": "female"
+		},
+		{
+			"empId": 1009,
+			"empName": "Mathias",
+			"salary": 8700,
+			"currency": "EUR",
+			"smoker": true,
+			"mStat": "Married",
+			"rating": 5,
+			"gender": "male"
+		}
+	]
+}

@@ -1,0 +1,113 @@
+{
+	"empStr": {
+		"empId": 9999,
+		"empName": "Jacob",
+		"salary": 8500,
+		"currency": "EUR",
+		"smoker": true,
+		"mStat": "Married",
+		"rating": 4,
+		"gender": "male"
+	},
+	"empTab": [{
+			"empId": 7000,
+			"empName": "Sarsi",
+			"salary": 9800,
+			"currency": "GBP",
+			"smoker": true,
+			"mStat": "Single",
+			"rating": 4,
+			"gender": "female"
+		},
+		{
+			"empId": 7001,
+			"empName": "Tirian",
+			"salary": 76500,
+			"currency": "INR",
+			"smoker": false,
+			"mStat": "Married",
+			"rating": 5,
+			"gender": "male"
+		},
+		{
+			"empId": 7002,
+			"empName": "Ned Stargard",
+			"salary": 71000,
+			"currency": "USD",
+			"smoker": false,
+			"mStat": "Single",
+			"rating": 4,
+			"gender": "male"
+		},
+		{
+			"empId": 7003,
+			"empName": "Alia",
+			"salary": 8500,
+			"currency": "EUR",
+			"smoker": true,
+			"mStat": "Married",
+			"rating": 3,
+			"gender": "female"
+		},
+		{
+			"empId": 7004,
+			"empName": "John Snow",
+			"salary": 92500,
+			"currency": "USD",
+			"smoker": false,
+			"mStat": "Married",
+			"rating": 2,
+			"gender": "male"
+		},
+		{
+			"empId": 7005,
+			"empName": "Mihir",
+			"salary": 46930,
+			"currency": "GBP",
+			"smoker": false,
+			"mStat": "Single",
+			"rating": 4,
+			"gender": "male"
+		},
+		{
+			"empId": 7006,
+			"empName": "Dilerius",
+			"salary": 25630,
+			"currency": "EUR",
+			"smoker": false,
+			"mStat": "Single",
+			"rating": 5,
+			"gender": "female"
+		},
+		{
+			"empId": 7007,
+			"empName": "Dogo",
+			"salary": 25000,
+			"currency": "EUR",
+			"smoker": false,
+			"mStat": "Married",
+			"rating": 2,
+			"gender": "male"
+		},
+		{
+			"empId": 7008,
+			"empName": "White Thieves",
+			"salary": 63258,
+			"currency": "GBP",
+			"smoker": true,
+			"mStat": "Single",
+			"rating": 3,
+			"gender": "female"
+		},
+		{
+			"empId": 7009,
+			"empName": "Robert Barathian",
+			"salary": 54780,
+			"currency": "EUR",
+			"smoker": true,
+			"mStat": "Married",
+			"rating": 5,
+			"gender": "male"
+		}
+	]
+}
